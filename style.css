@@ -103,7 +103,7 @@ img {
     margin-bottom: 10px;
     position: relative;
     align-self: flex-start;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
 }
 .presentation img {
     /* background: #001D3B; */
@@ -213,11 +213,12 @@ Requirement:
 You will deliver an HTML file and a CSS file, or an url that I can test resolution etc.
 
 Please ask me any question you might have before you start. */
-@media screen and (max-width:771px) and (min-width:1025px){
+@media screen and (max-width:772px) and (min-width:1025px){
   .presentation .animal {
-    width: 220px;
-    height: 300px;
-    top: 180px;
+    width: 300px;
+    height: 400px;
+    top: 200px;
+
   }
 }
 
@@ -248,7 +249,7 @@ Please ask me any question you might have before you start. */
     width: 250px;
     height:400px;
     top:300px;
-    left: 140px;
+    left: 110px;
   }
 
   footer div {
@@ -279,7 +280,7 @@ Please ask me any question you might have before you start. */
     width: 200px;
     height:300px;
     top: 200px;
-    left: 170px;
+    left: 140px;
   }
 
   footer div {
@@ -300,7 +301,7 @@ Please ask me any question you might have before you start. */
     }
 
     .presentation .animal {
-      left: 100px;
+      left: 70px;
       top: 140px;
       /*  */
     }
@@ -352,7 +353,7 @@ Please ask me any question you might have before you start. */
   .presentation .animal {
     width: 200px;
     height: 280px;
-    left: 100px;
+    left: 70px;
   }
 }
 
@@ -373,7 +374,7 @@ Please ask me any question you might have before you start. */
     width: 200px;
     height: 250px;
     top: 140px;
-    left: 70px;
+    left: 40px;
   }
 }
 
@@ -394,7 +395,7 @@ Please ask me any question you might have before you start. */
     width: 180px;
     height: 220px;
     top: 135px;
-    left: 70px;
+    left: 40px;
   }
 }
 
@@ -428,7 +429,7 @@ Please ask me any question you might have before you start. */
     margin-left: 10px;
   }
   .presentation .animal {
-    left: 70px;
+    left: 40px;
     top: 140px;
     /*  */
   }
