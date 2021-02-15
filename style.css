@@ -212,7 +212,13 @@ Requirement:
 You will deliver an HTML file and a CSS file, or an url that I can test resolution etc.
 
 Please ask me any question you might have before you start. */
-
+@media screen and (max-width:771px) and (min-width:1025px){
+  .presentation .animal {
+    width: 220px;
+    height: 300px;
+    top: 180px;
+  }
+}
 
 @media screen and (max-width:1025px) and (min-width:771px){
   html {
@@ -369,7 +375,6 @@ Please ask me any question you might have before you start. */
     left: 70px;
   }
 }
-
 
 
 @media screen and (max-width:361px) and (min-width:320px){
