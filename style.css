@@ -83,14 +83,14 @@ img {
   color: #ABD18D;
   background: #001D3B;
   position: absolute;
-  width: 100px;
-  height: 40px;
+  width: 120px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
-  top: 55.9vh;
-  left: 110px;
+  top: 54vh;
+  left: 100px;
 }
 
 /* presentation */
@@ -100,7 +100,7 @@ img {
     width: 500px;
     height: 76vh;
     /* margin-right: 30px; */
-    margin-left: 100px;
+    margin-left: 60px;
     margin-bottom: 10px;
     position: relative;
     align-self: flex-start;
