@@ -53,11 +53,12 @@ header a:hover {
 /* ---------container section----------- */
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     background: #001D3B;
     height: auto;
+    /* padding: 10px; */
 }
 
 
@@ -115,9 +116,9 @@ img {
   .presentation .animal {
     background: #9DF0FF;
     position: absolute;
-    width: 170px;
-    height: 230px;
-    top: 130px;
+    width: 189px;
+    height: 240px;
+    top: 20vh;
     /* left: 170px; */
     /* top: 50%; */
     /* transform:translateY(-100%); */
@@ -140,11 +141,14 @@ img {
   }
   
   .fields {
+    /* background: red; */
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     width: 200px;
+    justify-content: center;
+    align-items: flex-start;
   }
   
   .fields .block {
@@ -271,7 +275,8 @@ Please ask me any question you might have before you start. */
   }
   
   .man .number {
-    top: 56.8vh;
+    top: 55.0vh;
+    height: 100px;
   }
   
   .presentation {
@@ -351,9 +356,9 @@ Please ask me any question you might have before you start. */
   }
   
   .man .number {
-      height: 60px;
-      top:54.7vh;
-      left:93px;
+      height: 65px;
+      top:55vh;
+      left:84px;
     }
     .presentation{
       margin-right: 30px;
@@ -376,7 +381,7 @@ Please ask me any question you might have before you start. */
     .man .number {
       height: 60px;
       top:55vh;
-      left:75px;
+      left:70px;
     }
     .presentation{
       margin-right: 30px;
@@ -400,7 +405,7 @@ Please ask me any question you might have before you start. */
     .man .number {
       height: 60px;
       top:55vh;
-      left:70px;
+      left:65px;
     }
     .presentation{
 
@@ -422,7 +427,7 @@ Please ask me any question you might have before you start. */
     .man .number {
       height: 50px;
       top:54vh;
-      left:55px;
+      left:45px;
     }
     .presentation{
       margin-right: 30px;
@@ -463,4 +468,6 @@ Please ask me any question you might have before you start. */
       top: 360px;
     }
   }
+  
+
   
