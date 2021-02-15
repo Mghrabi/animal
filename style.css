@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 /* --------header section----------- */
@@ -331,53 +332,84 @@ Please ask me any question you might have before you start. */
 
   
 
-  
+ .man {
+   right: 40px;
+ }
 
   .man .number {
       height: 60px;
       top:54.7vh;
-      left:110px;
+      left:93px;
   }
 
   .presentation .animal {
     width: 200px;
-    height: 300px;
+    height: 280px;
+    left: 100px;
   }
 }
 
 
-@media screen and (max-width:376px) and (min-width:320px){
+@media screen and (max-width:376px) and (min-width:361px){
 
 
-
+  .man {
+    right: 40px;
+  }
   .man .number {
-      top:56.5vh;
-      left:95px;
+    height: 60px;
+      top:55vh;
+      left:75px;
+  }
+
+  .presentation .animal {
+    width: 200px;
+    height: 250px;
+    top: 140px;
+    left: 70px;
+  }
+}
+
+
+
+@media screen and (max-width:361px) and (min-width:320px){
+
+
+  .man {
+    right: 40px;
+  }
+  .man .number {
+    height: 60px;
+      top:55vh;
+      left:70px;
   }
 
   .presentation .animal {
     width: 180px;
-    height: 250px;
+    height: 220px;
+    top: 135px;
+    left: 70px;
   }
 }
 
-
-@media screen and (max-width:320px){
+@media screen and (max-width:321px){
 
 
 
   .man .number {
-      top:55.2vh;
-      left:74px;
+      height: 50px;
+      top:54vh;
+      left:55px;
   }
 
   .presentation .animal {
-    width: 120px;
+    top: 125px;
+    width: 140px;
     height: 200px;
   }
 }
 
-@media screen and (max-width:280px){
+@media screen and (max-width:281px){
 
   html {
     /* font-size: 10px; */
@@ -397,5 +429,9 @@ Please ask me any question you might have before you start. */
   .man {
     margin-left: 25px;
     order:1;
+  }
+  .man .number {
+    left: 70px;
+    top: 360px;
   }
 }
