@@ -288,7 +288,7 @@ header a {
 
 @media screen and (max-width:376px){
   .presentation {
-    min-width: 100px;
+    min-width: auto;
   }
 }
 
@@ -327,7 +327,7 @@ header a {
     font-size: 0.1rem;
   }
   .presentation{ 
-    min-width: 100px;
+    /* min-width: 100px; */
   }
 
 }
