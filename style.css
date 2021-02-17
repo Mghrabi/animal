@@ -287,7 +287,9 @@ header a {
 
 
 @media screen and (max-width:376px){
-  
+  .presentation {
+    min-width: 100px;
+  }
 }
 
 
