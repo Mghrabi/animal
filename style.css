@@ -1,210 +1,212 @@
+
+
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #001D3B;
 }
+
 
 /* --------header section----------- */
 header {
-    background: #ABD18D;
-    /* background: green; */
-    padding: 0;
-    /* height: 88px; */
-    height: 10vh;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 30px;
+  background: #ABD18D;
+  /* width: 100%; */
+  padding: 0;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
 }
 
 header a {
-    color: rgb(226, 226, 226);
-    color: #001D3B;
-    font-weight: bold;
-    font-size: 1rem;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-    margin-left: 1.2em;
-    cursor: pointer;
-    transition: color 0.2s;
+  color: rgb(226, 226, 226);
+  color: #001D3B;
+  font-weight: bold;
+  font-size: 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-left: 1.2em;
+  cursor: pointer;
+  transition: color 0.2s;
 }
 
 #signup {
-  background: #001D3B;
-  padding: 7px;
-  border-radius: 5px;
-  color: white;
-  font-weight: 100;
-  transition: color , background-color 0.2s;
+background: #001D3B;
+padding: 7px;
+border-radius: 5px;
+color: white;
+font-weight: 100;
+transition: color , background-color 0.2s;
 }
 
 #signup:hover {
-  color: #001D3B;
-  background: white;
+color: #001D3B;
+background: white;
 }
 
 header a:hover {
-    color: white;
+  color: white;
 }
+
+
 
 
 
 /* ---------container section----------- */
 .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    background: #001D3B;
-    height: auto;
-    /* padding: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: #001D3B;
+  height: auto;
+  /* width: 100%; */
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 10px; */
 }
 
 
 
 img {
-    height: 200px;
-    width: 200px;
+  height: 200px;
+  width: 200px;
 }
 /* man */
 .man {
-    margin-left: 0;
-    width: 350px;
-    height: 90vh;
-    text-align: left;
-    background: red;
-    position: relative;
+  margin-left: 0;
+  width: 350px;
+  height: 90vh;
+  text-align: left;
+  position: relative;
 }
 .man img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 .man .number {
-  color: #ABD18D;
-  background: #001D3B;
-  position: absolute;
-  width: 120px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  top: 54vh;
-  left: 100px;
+color: #ABD18D;
+background: #001D3B;
+position: absolute;
+width: 30%;
+height: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2.5rem;
+top: 54vh;
+left: 33%;
 }
 
 /* presentation */
 .presentation {
-    background: #001D3B;
-    margin-left: 0;
-    width: 500px;
-    height: 76vh;
-    /* margin-right: 30px; */
-    margin-left: 60px;
-    margin-bottom: 10px;
-    position: relative;
-    align-self: flex-start;
-    margin-bottom: 100px;
-  }
-  .presentation img {
-    /* background: #001D3B; */
-    height: 100%;
-    width: 100%;
-  }
-  /* animal */
-  .presentation .animal {
-    background: #9DF0FF;
-    position: absolute;
-    width: 189px;
-    height: 240px;
-    top: 20vh;
-    /* left: 170px; */
-    /* top: 50%; */
-    /* transform:translateY(-100%); */
-    left: 155px;
-    /* transform:translateX(-50%); */
-    bottom: 0;
-  }
-  
-  h2 {
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2rem;
-    letter-spacing: 1px;
-  }
-  
-  .presentation .animal img {
-    background: #9DF0FF;
-  }
-  
-  .fields {
-    /* background: red; */
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 200px;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  
-  .fields .block {
-    width: 100%;
-    height: 50px;
-    background: #7EBD3c;
-    margin-bottom: 30px;
-    border: 1px solid white;
-    border-bottom: 4px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    color: black;
-    cursor: pointer;
-    transition: transform 0.3s;
-  }
-  
-  .fields .block:hover {
-    transform: scale(1.05);
-  }
-  /* -------footer section--------- */
-  
-  footer {
-    background: black;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 30px;
-    padding: 40px;
-    font-size: 0.8rem;
-  }
-  
-  h4 {
-    font-size: 1rem;
-    letter-spacing: 1px;
-    width: 100%;
-    cursor: pointer;
-  }
-  
-  footer div {
-    vertical-align: top;
-    padding-left:6px;
-    padding-right: 3px;
-    background: grey;
-    width: 350px;
-    height: auto;
-    vertical-align: top;
-    /* line-height: 30px; */
-    font-family: sans-serif;
-    letter-spacing: 0.5px;
-    vertical-align: top;
-    padding-bottom: 15px;
-    box-shadow: 4px 4px 8px white;
-    /* border-radius: 5px; */
+  background: #001D3B;
+  margin-left: 0;
+  width: 33.3%;
+  max-width: 400px;
+  min-width: 300px;
+  height: 76vh;
+  position: relative;
+  margin-bottom: 100px;
+}
+.presentation img {
+  height: 100%;
+  width: 100%;
+}
+/* animal */
+.presentation .animal {
+  background: #9DF0FF;
+  position: absolute;
+  width: 40%;
+  height: 47%;
+  top: 52%;
+  /* transform: translateY(-50%); */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.presentation .animal img {
+  background: #9DF0FF;
+}
+
+.fields {
+  /* background: red; */
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 200px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.fields .block {
+  width: 100%;
+  height: 50px;
+  background: #7EBD3c;
+  margin-bottom: 30px;
+  border: 1px solid white;
+  border-bottom: 4px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.fields .block:hover {
+  transform: scale(1.05);
+}
+/* -------footer section--------- */
+
+footer {
+  background: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 40px;
+  font-size: 0.8rem;
+}
+
+h4 {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  width: 100%;
+  cursor: pointer;
+}
+
+footer div {
+  vertical-align: top;
+  padding-left:6px;
+  padding-right: 3px;
+  background: grey;
+  max-width: 320px;
+  height: auto;
+  vertical-align: top;
+  /* line-height: 30px; */
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+  vertical-align: top;
+  padding-bottom: 15px;
+  box-shadow: 4px 4px 8px white;
+  /* border-radius: 5px; */
 }
 /* Please create a web page according to my design with 3 images. Please see attachment.
 This task requires very good CSS3 skills. I have tried 2 guys, but they did not make it right.
@@ -218,256 +220,106 @@ Requirement:
 You will deliver an HTML file and a CSS file, or an url that I can test resolution etc.
 
 Please ask me any question you might have before you start. */
-@media screen and (max-width:772px) and (min-width:1025px){
-  .presentation .animal {
-    width: 300px;
-    height: 400px;
-    top: 200px;
-    
-  }
-}
+
 
 @media screen and (max-width:1025px) and (min-width:771px){
-  html {
-    font-size: 30px;
-  }
-  .man {
-    width: 500px;
-    height: 90vh;
-    margin-left: 280px;
-    order: 1;
-    
-  }
-  
-  .man .number {
-    width: 180px;
-    height: 130px;
-    top: 55vh;
-    left: 140px;
-  }
-  
-  .presentation {
-    margin-bottom: 120px;
-    margin-right: 30px;
-  }
-  
-  .presentation .animal {
-    width: 250px;
-    height:400px;
-    top:300px;
-    left: 110px;
-  }
-  
-  footer div {
-    font-size: 1.2rem;
-    width: 700px;
-  }
+
+footer div {
+  font-size: 1.2rem;
+  width: 700px;
+}
 }
 
 @media screen and (max-width:770px) and (min-width:601px){
-  html {
-    font-size: 20px;
-  }
-  
-  .man {
-    margin-left: 200px;
-    order: 1;
-  }
-  
-  .man .number {
-    top: 55.0vh;
-    height: 100px;
-  }
-  
-  .presentation {
-    margin-bottom: 120px;
-    margin-right: 30px;
-  }
-  
-  .presentation .animal {
-    width: 200px;
-    height:300px;
-    top: 200px;
-    left: 140px;
-  }
-  
-  footer div {
-    font-size: 1.2rem;
-    width: 500px;
-  }
+
+footer div {
+  font-size: 1.2rem;
+  width: 500px;
+}
+.man {
+  order: 1;
+}
 }
 
 
 
 
 @media screen and (max-width:600px){
-  html {
-    /* font-size: 10px; */
-  }
-  header a {
-    font-size: 13px;
-  }
-  .presentation {
-    margin-right: 30px;
-  }
-  .presentation .animal {
-    left: 70px;
-    top: 140px;
-    /*  */
-  }
-  .man {
-    margin-left: 50px;
-    order:1;
-  }
-  
+header a {
+  font-size: 13px;
+}
+.man {
+  order: 1;
+}
 }
 
 
 @media screen and (max-width:541px){
-  html {
-    /* font-size: 10px; */
-  }
+header a {
+  font-size: 13px;
+}
+
+.presentation {
+   width: 100%;
+}
+.man {
+    order: 1;
+}
+
+}
+
+@media screen and (max-width:415px){
+
   header a {
-    font-size: 13px;
+      font-size: 0.7rem;
   }
-  
-  .presentation {
-    margin-left: 30px;
-    margin-right: 30px;
+  .presentation{
+      width: 100%;
   }
   .presentation .animal {
-    left: 160px;
-    top: 140px;
-    /*  */
+      
+    /* width: 200px;
+    height: 280px;
+    left: 70px; */
   }
-  .man {
-    margin-left: 100px;
-    order:1;
-  }
+}
+
+
+@media screen and (max-width:376px){
   
 }
 
-@media screen and (max-width:415px) and (min-width:376px){
-  
+
+@media screen and (max-width:361px) and (min-width:320px){
   
   
   .man {
-    right: 40px;
   }
-  
-  .man .number {
-      height: 65px;
-      top:55vh;
-      left:84px;
-    }
-    .presentation{
-      margin-right: 30px;
-      
-    }
-    .presentation .animal {
-      width: 200px;
-      height: 280px;
-      left: 70px;
-    }
-  }
-  
-  
-  @media screen and (max-width:376px) and (min-width:361px){
-    
-    
-    .man {
-      right: 40px;
-    }
-    .man .number {
-      height: 60px;
-      top:55vh;
-      left:70px;
-    }
-    .presentation{
-      margin-right: 30px;
-      
-    }
-    .presentation .animal {
-      width: 200px;
-      height: 250px;
-      top: 140px;
-      left: 40px;
-    }
-  }
-  
-  
-  @media screen and (max-width:361px) and (min-width:320px){
-    
-    
-    .man {
-      right: 40px;
-    }
-    .man .number {
-      height: 60px;
-      top:55vh;
-      left:65px;
-    }
-    .presentation{
+  /* .man .number {
+    height: 60px;
+    top:55vh;
+    left:65px;
+  } */
+  .presentation{
 
-      margin-right: 30px;
-    }
-    
-    .presentation .animal {
-      width: 180px;
-      height: 220px;
-      top: 135px;
-      left: 40px;
-    }
+    /* margin-right: 30px; */
   }
   
-  @media screen and (max-width:321px){
-    
-    
-    
-    .man .number {
-      height: 50px;
-      top:54vh;
-      left:45px;
-    }
-    .presentation{
-      margin-right: 30px;
-      
-    }
-    
-    .presentation .animal {
-      top: 125px;
-      width: 140px;
-      height: 200px;
-    }
+  .presentation .animal {
+    /* width: 180px;
+    height: 220px;
+    top: 135px;
+    left: 40px; */
   }
-  
-  @media screen and (max-width:281px){
-    
-    html {
-      /* font-size: 10px; */
-    }
-    header a {
-      font-size: 13px;
-    }
-    
-    .presentation {
-      margin-left: 10px;
-      margin-right: 30px;
-    }
-    .presentation .animal {
-      left: 40px;
-      top: 140px;
-      /*  */
-    }
-    .man {
-      margin-left: 25px;
-      order:1;
-    }
-    .man .number {
-      left: 70px;
-      top: 360px;
-    }
-  }
+}
+
+@media screen and (max-width:321px){
+   
+}
   
 
+
+@media screen and (max-width:281px){
   
+
+}
