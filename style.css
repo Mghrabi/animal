@@ -275,7 +275,7 @@ footer div div{
 }
 .man {
   order: 1;
-
+  min-width: auto;
 }
 }
 
@@ -307,7 +307,6 @@ header a {
 }
 .presentation {
    width: 100%;
-   min-width: 100px;
 }
 .man {
     order: 1;
@@ -346,23 +345,7 @@ header a {
 @media screen and (max-width:361px) and (min-width:320px){
   
   
-  .man {
-  }
-  /* .man .number {
-    height: 60px;
-    top:55vh;
-    left:65px;
-  } */
-  .presentation{
-    /* margin-right: 30px; */
-  }
-  
-  .presentation .animal {
-    /* width: 180px;
-    height: 220px;
-    top: 135px;
-    left: 40px; */
-  }
+
 }
 
 @media screen and (max-width:321px){
