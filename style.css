@@ -64,7 +64,7 @@ header a:hover {
   background: #001D3B;
   height: auto;
   /* width: 100%; */
-  max-width: 2100px;
+  max-width: 2200px;
   margin-left: auto;
   margin-right: auto;
   /* background: red; */
@@ -202,6 +202,8 @@ footer {
   justify-content: space-around;
   gap: 30px;
   padding: 40px;
+  padding-left: 0;
+  padding-right: 0;
   font-size: 0.8rem;
 }
 
@@ -212,7 +214,17 @@ h4 {
   cursor: pointer;
 }
 
-footer div {
+footer .footer {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+footer div div{
   vertical-align: top;
   padding-left:6px;
   padding-right: 3px;
@@ -229,6 +241,7 @@ footer div {
   box-shadow: 4px 4px 8px white;
   /* border-radius: 5px; */
 }
+
 /* Please create a web page according to my design with 3 images. Please see attachment.
 This task requires very good CSS3 skills. I have tried 2 guys, but they did not make it right.
 
@@ -245,9 +258,8 @@ Please ask me any question you might have before you start. */
 
 @media screen and (max-width:1025px){
 
-footer div {
+footer div div {
   font-size: 1.2rem;
-  width: 700px;
 }
 .man {
   order: 1;
@@ -256,9 +268,8 @@ footer div {
 
 @media screen and (max-width:770px) and (min-width:601px){
 
-footer div {
+footer div div{
   font-size: 1.2rem;
-  width: 500px;
 }
 .man {
   order: 1;
@@ -310,6 +321,10 @@ header a {
     height: 280px;
     left: 70px; */
   }
+
+  footer .footer div {
+    font-size: 0.7rem;
+  }
 }
 
 
@@ -354,7 +369,16 @@ header a {
     font-size: 0.1rem;
   }
   .presentation{ 
-    /* min-width: 100px; */
+    min-width: auto;
   }
+  .man {
+    min-width: auto;
+  }
+
+  .fields  {
+    min-width: auto;
+  }
+
+  
 
 }
