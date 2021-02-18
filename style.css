@@ -286,6 +286,10 @@ footer div div{
 header a {
   font-size: 13px;
 }
+
+.presentation {
+  min-width: auto;
+}
 .man {
   order: 1;
   min-width: auto;
