@@ -275,6 +275,7 @@ footer div div{
 }
 .man {
   order: 1;
+
 }
 }
 
@@ -287,6 +288,7 @@ header a {
 }
 .man {
   order: 1;
+  min-width: auto;
 }
 }
 
