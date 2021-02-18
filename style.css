@@ -293,6 +293,7 @@ header a {
 .man {
   order: 1;
   min-width: auto;
+  width:  100%;
 }
 }
 
