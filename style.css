@@ -140,11 +140,10 @@ border: solid red 1.5px;
 }
 /* animal */
 .presentation .animal {
-  background: #9DF0FF;
   position: absolute;
   width: 35%;
   height: 46%;
-  top: 49%;
+  top: 48%;
   /* transform: translateY(-50%); */
   left: 50%;
   transform: translate(-50%, -50%);
@@ -160,7 +159,6 @@ h2 {
 }
 
 .presentation .animal img {
-  background: #9DF0FF;
 }
 
 .fields {
@@ -227,6 +225,7 @@ footer div {
   letter-spacing: 0.5px;
   vertical-align: top;
   padding-bottom: 15px;
+  margin-bottom: 2px;
   box-shadow: 4px 4px 8px white;
   /* border-radius: 5px; */
 }
