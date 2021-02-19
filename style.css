@@ -90,8 +90,12 @@ img {
   width: 100%;
 }
 .man .number {
-color: #ABD18D;
+/* color: #61b66e; */
+color: rgb(0, 154, 0);
 background: #001D3B;
+font-weight: 600;
+font-family: Helvetica, sans-serif;
+/* letter-spacing: 1px; */
 position: absolute;
 width: 30%;
 height: 8.5%;
