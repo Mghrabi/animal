@@ -222,6 +222,7 @@ footer .footer {
   justify-content: space-around;
   align-items: center;
   gap: 30px;
+  padding: 10px;
 }
 
 footer div div{
@@ -229,7 +230,7 @@ footer div div{
   padding-left:6px;
   padding-right: 3px;
   background: grey;
-  max-width: 320px;
+  max-width: 350px;
   height: auto;
   vertical-align: top;
   /* line-height: 30px; */
@@ -258,21 +259,20 @@ Please ask me any question you might have before you start. */
 
 @media screen and (max-width:1025px){
 
-footer div div {
-  font-size: 1.2rem;
-}
 .man {
   order: 1;
   min-width: 500px;
 
 }
+
+footer .footer div {
+  font-size: 1rem;
+}
 }
 
 @media screen and (max-width:770px) and (min-width:601px){
 
-footer div div{
-  font-size: 1.2rem;
-}
+
 .man {
   order: 1;
   min-width: auto;
@@ -296,6 +296,8 @@ header a {
   min-width: auto;
   width:  100%;
 }
+
+
 }
 
 
@@ -314,6 +316,10 @@ header a {
     order: 1;
 }
 
+footer .footer div {
+  font-size: 0.9rem;
+}
+
 }
 
 @media screen and (max-width:415px){
@@ -324,16 +330,8 @@ header a {
   .presentation{
       width: 100%;
   }
-  .presentation .animal {
-      
-    /* width: 200px;
-    height: 280px;
-    left: 70px; */
-  }
 
-  footer .footer div {
-    font-size: 0.7rem;
-  }
+
 }
 
 
@@ -344,16 +342,6 @@ header a {
 }
 
 
-@media screen and (max-width:361px) and (min-width:320px){
-  
-  
-
-}
-
-@media screen and (max-width:321px){
-   
-}
-  
 
 
 @media screen and (max-width:260px){
