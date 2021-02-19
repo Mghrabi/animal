@@ -71,7 +71,9 @@ header a:hover {
   /* padding: 10px; */
 }
 
-
+::selection {
+  user-select: none;
+}
 
 img {
   height: 200px;
