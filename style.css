@@ -19,7 +19,7 @@ header {
   align-items: center;
   padding-right: 10px;
   user-select: none;
-  /* border-bottom: 3px solid white; */
+  border-bottom: 4px solid white;
 }
 
 header a {
