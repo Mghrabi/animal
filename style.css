@@ -353,10 +353,10 @@ footer .footer div {
 
 
 
-@media screen and (max-width:260px){
+@media screen and (max-width:267px){
 
   header a {
-    font-size: 0.1rem;
+    font-size: 0.5rem;
   }
   .presentation{ 
     min-width: auto;
@@ -371,4 +371,11 @@ footer .footer div {
 
   
 
+}
+
+
+@media screen and (max-width:210px){
+  header a {
+    font-size: 0.1rem;
+  }
 }
